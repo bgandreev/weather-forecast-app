@@ -14,13 +14,24 @@
       <h1>Weather Dashboard</h1>
     </header>
     
-    <aside></aside>
-    
-    <main>
-      <section>Daily Weather Info</section>
-      <section>5 Day Forecast</section>
-    </main>
+    <div class="container">
+      
+      <div class="left">
+        <div>
+          <input class="srch" type="text" placeholder="Type in city name">
+        </div>
+        <div>
+          <button class="btn">Search</button>
+        </div>
+        <div id="history"></div>
+      </div>
+      
+      <div class="right">
+        <div><section>Daily Weather Info</section></div>
+        <div><section>5 Day Forecast</section></div>
+      </div>
 
+    </div>
 
 
     <script src="./resources/script.js"></script>
